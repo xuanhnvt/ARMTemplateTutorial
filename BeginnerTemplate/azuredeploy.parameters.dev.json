@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServicePlanName": {
+            "value": "myAppServicePlan"
+        },
+        "webAppName": {
+            "value": "myWebApp"
+        },
+        "linuxFxVersion": {
+            "value": "php|7.0"
+        },
+        "storagePrefix": {
+            "value": "xuan"
+        },
+        "storageSKU": {
+            "value": "Standard_LRS"
+        },
+        "resourceTags": {
+            "value":{
+                "Environment": "Prod",
+                "Project": "Tutorial"
+            }
+        }
+    }
+}
